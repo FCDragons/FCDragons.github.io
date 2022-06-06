@@ -8,6 +8,7 @@
   <time>7:00:00 PM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -16,6 +17,7 @@
   <time>8:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -24,6 +26,7 @@
   <time>9:00:00 AM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -32,6 +35,7 @@
   <time>10:00:00 AM</time>
   <hscore>0</hscore>
   <vscore>4</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/27/2022">5-27-2022</date>
@@ -40,6 +44,7 @@
   <time>7:00:00 PM</time>
   <hscore>2</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -48,6 +53,7 @@
   <time>8:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>5</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -56,6 +62,7 @@
   <time>9:00:00 AM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -64,6 +71,7 @@
   <time>10:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>0</vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/3/2022">6-3-2022</date>
@@ -108,6 +116,7 @@
   <time>7:00:00 PM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
@@ -116,6 +125,7 @@
   <time>8:00:00 PM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
@@ -124,6 +134,7 @@
   <time>9:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
@@ -132,6 +143,7 @@
   <time>10:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/17/2022">6-17-2022</date>
@@ -140,6 +152,7 @@
   <time>7:00:00 PM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
@@ -148,6 +161,7 @@
   <time>8:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
@@ -156,6 +170,7 @@
   <time>9:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
@@ -164,6 +179,7 @@
   <time>10:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/24/2022">6-24-2022</date>
@@ -172,6 +188,7 @@
   <time>7:00:00 PM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
@@ -180,6 +197,7 @@
   <time>8:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
@@ -188,6 +206,7 @@
   <time>9:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
@@ -196,6 +215,7 @@
   <time>10:00:00 AM</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="TBD">TBD</date>
@@ -204,6 +224,7 @@
   <time>TBD</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 <game>
   <date date="TBD">TBD</date>
@@ -212,5 +233,6 @@
   <time>TBD</time>
   <hscore></hscore>
   <vscore></vscore>
+  <note></note>
 </game>
 </schedule>
