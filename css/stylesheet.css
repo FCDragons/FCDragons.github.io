@@ -109,11 +109,12 @@ footer{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background-color: DodgerBlue;
+	border: Solid 5px red;
 }
 
 .flex-container > div {
-	background-color: #f1f1f1;
+	background-color: #FDFDFD;
+	border: solid 5px blue;
 	/*background-color: #FDFDFD;*/
 	border-radius: 25%;
   width: 100px;
