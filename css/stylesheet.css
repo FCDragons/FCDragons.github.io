@@ -68,7 +68,6 @@ footer{
 	width: 80%;
 	height: 100px;
 	color: white;
-	border-radius: 25%;
 	background: #11998e;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
  	background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -114,11 +113,7 @@ footer{
 }
 
 .flex-container > .gamediv {
-	
-	
-}
-.gamediv{
-	 background-color: #f1f1f1;
+	background-color: #f1f1f1;
 	/*background-color: #FDFDFD;*/
 	border-radius: 25%;
   width: 100px;
@@ -126,6 +121,10 @@ footer{
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+	
+}
+.gamediv{
+
 }
 .written{
 	display:inline-block;
