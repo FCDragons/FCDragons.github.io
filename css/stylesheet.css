@@ -61,6 +61,9 @@ div{
 .header-right {
   float: right;
 }
+.header-center {
+  text-align: center;
+}
 footer{
 	text-align: center;
 	margin-top: 50px;
