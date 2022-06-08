@@ -105,7 +105,25 @@ footer{
 	text-transform: capitalize;
 	text-align: center;
 }
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 
+.flex-container > .gamediv {
+	
+	
+}
+.gamediv{
+	background-color: #FDFDFD;
+	border-radius: 25%;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 .written{
 	display:inline-block;
 	text-align: center;r
