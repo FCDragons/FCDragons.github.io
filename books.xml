@@ -8,7 +8,7 @@
   <time>7:00:00 PM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -17,7 +17,7 @@
   <time>8:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -26,7 +26,7 @@
   <time>9:00:00 AM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
@@ -35,7 +35,7 @@
   <time>10:00:00 AM</time>
   <hscore>0</hscore>
   <vscore>4</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/27/2022">5-27-2022</date>
@@ -44,7 +44,7 @@
   <time>7:00:00 PM</time>
   <hscore>2</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -53,7 +53,7 @@
   <time>8:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>5</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -62,7 +62,7 @@
   <time>9:00:00 AM</time>
   <hscore>3</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
@@ -71,15 +71,15 @@
   <time>10:00:00 AM</time>
   <hscore>1</hscore>
   <vscore>0</vscore>
-  <note></note>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/3/2022">6-3-2022</date>
   <home>FC Dragons White</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
-  <hscore></hscore>
-  <vscore></vscore>
+  <hscore>1</hscore>
+  <vscore>1</vscore>
   <note>rescheduled to 6/6/2022</note>
 </game>
 <game>
@@ -87,8 +87,8 @@
   <home>Saint Pius</home>
   <visitor>FC Dragons White</visitor>
   <time>8:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
+  <hscore>4</hscore>
+  <vscore>0</vscore>
   <note>rescheduled to 10:00: AM</note>
 </game>
 <game>
@@ -96,8 +96,8 @@
   <home>FC Dragons Blue</home>
   <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
+  <hscore>2</hscore>
+  <vscore>0</vscore>
   <note>rescheduled to 11:00: AM</note>
 </game>
 <game>
@@ -105,8 +105,8 @@
   <home>Diamond A</home>
   <visitor>FC Dragons Yellow</visitor>
   <time>10:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
+  <hscore>3</hscore>
+  <vscore>0</vscore>
   <note>rescheduled to 12:00: AM</note>
 </game>
 <game>
@@ -114,125 +114,125 @@
   <home>Diamond U-9</home>
   <visitor>FC Dragons White</visitor>
   <time>7:00:00 PM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
   <home>Diamond A</home>
   <visitor>FC Dragons Blue</visitor>
   <time>8:00:00 PM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
   <home>Saint Pius</home>
   <visitor>FC Dragons Yellow</visitor>
   <time>9:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
   <home>Diamond B</home>
   <visitor>FC Dragons White</visitor>
   <time>10:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/17/2022">6-17-2022</date>
   <home>Diamond U-9</home>
   <visitor>Saint Pius</visitor>
   <time>7:00:00 PM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
   <home>FC Dragons Yellow</home>
   <visitor>FC Dragons White</visitor>
   <time>8:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
   <home>Diamond A</home>
   <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
   <home>Saint Pius</home>
   <visitor>FC Dragons Blue</visitor>
   <time>10:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/24/2022">6-24-2022</date>
   <home>FC Dragons White</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
   <home>FC Dragons White</home>
   <visitor>Saint Pius</visitor>
   <time>8:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
   <home>Diamond B</home>
   <visitor>FC Dragons Blue</visitor>
   <time>9:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
   <home>FC Dragons Yellow</home>
   <visitor>Diamonds A</visitor>
   <time>10:00:00 AM</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="TBD">TBD</date>
   <home>2nd Place</home>
   <visitor>3rd Place</visitor>
   <time>TBD</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 <game>
   <date date="TBD">TBD</date>
   <home>1st Place</home>
   <visitor>4th Place</visitor>
   <time>TBD</time>
-  <hscore></hscore>
-  <vscore></vscore>
-  <note></note>
+  <hscore>&nbsp;</hscore>
+  <vscore>&nbsp;</vscore>
+  <note>&nbsp;</note>
 </game>
 </schedule>
