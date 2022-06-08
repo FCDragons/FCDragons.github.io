@@ -117,17 +117,29 @@ footer{
 	text-align: center;
 	background-color: #FDFDFD;
 	border: solid 5px blue;
-	/*background-color: #FDFDFD;*/
 	border-radius: 25%;
-  width: 100px;
-  margin: 10px;
+	  width: 80%;
+	  margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
-	
+  font-size: 30px;	
 }
-.gamediv{
+.container-row{
+	text-align:center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: Solid 5px yellow;	
+}
 
+.container-row > div{
+		text-align: center;
+	background-color: #FDFDFD;
+	border: solid 5px green;
+	/*background-color: #FDFDFD;*/
+	border-radius: 25%;
+	width: 33.33%;
+	margin: 20
 }
 .written{
 	display:inline-block;
