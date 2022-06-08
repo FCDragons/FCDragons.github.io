@@ -11,7 +11,14 @@ div{
 #display{
 	min-height: 100vh;
 }
-
+#demo{
+	text-align:center;
+	
+}
+.SoccerLogo{
+	width: 50%;
+	height: auto;
+}
 .header{
 	overflow: hidden;
 	color: white;
