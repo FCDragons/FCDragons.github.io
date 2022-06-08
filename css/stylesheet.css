@@ -19,7 +19,7 @@ div{
 	text-align: center;
 }
 .SoccerLogo{
-	width: 30%;
+	width: 5%;
 	height: auto;
 }
 .header{
@@ -132,7 +132,10 @@ footer{
     display: block;
     text-align: left;
   }
-  
+  .SoccerLogo{
+	  width: 10%;
+	  height: auto;
+  }
   .header-right {
     float: none;
   }
