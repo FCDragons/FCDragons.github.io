@@ -106,6 +106,7 @@ footer{
 	text-align: center;
 }
 .flex-container{
+	text-align:center;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -113,6 +114,7 @@ footer{
 }
 
 .flex-container > div {
+	text-align: center;
 	background-color: #FDFDFD;
 	border: solid 5px blue;
 	/*background-color: #FDFDFD;*/
