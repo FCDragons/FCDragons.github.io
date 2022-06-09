@@ -106,7 +106,6 @@ footer{
 	text-align: center;
 }
 .flex-container{
-	text-align:center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -118,13 +117,12 @@ footer{
 	text-align: center;
 	background-color: #FDFDFD;
 	border: solid 5px blue;
-	border-radius: 25%;
+	border-radius: 25px;
 	width: 80%;
 	line-height: 75px;
 	font-size: 30px;	
 	  /*center Horizontally*/
 	margin: 0 auto;
-	text-align: center;
 
 }
 .container-row{
@@ -133,14 +131,15 @@ footer{
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	border: Solid 5px yellow;	
+	border-radius: 25px;
+	border: Solid 5px yellow;
+	margin-bottom: 50px;	
 }
 
 .container-row > div{
-		text-align: center;
+	text-align: center;
 	background-color: #FDFDFD;
 	border: solid 5px green;
-	/*background-color: #FDFDFD;*/
 	width: 26.5%;
 	margin: 0 auto;
 }
