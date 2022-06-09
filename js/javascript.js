@@ -50,14 +50,54 @@
 				break;
 		}
 		
-			txt += x[i].childNodes[0].nodeValue + "<br>"+
+		switch (v[i].childNodes[0].nodeValue){
+			case "Diamond U-9":
+				vimg ="images/diamondsu9_sm.png";
+				break;
+			case "FC Dragons White":
+				vimg ="images/fcdragons_logo_sm.png";
+				break;
+			case "FC Dragons Blue":
+				vimg ="images/fcdragons_logo_sm.png";
+				break;
+			case "Diamond A":
+				vimg ="images/diamondsA_logo_sm.png";
+				break;
+			case "FC Dragons Yellow":
+				vimg ="images/fcdragons_logo_sm.png";
+				break;
+			case "Saint Pius":
+				vimg ="images/stpius_logo_sm.png";
+				break;
+			case "Diamond B":
+				vimg ="images/diamondsB_sm.png";
+				break;
+			default: 
+				vimg ="images/default_logo_sm.png";
+				break;
+		}
+		
+		txt += '<div class ="row">'+
+				'<div class ="row">'+x[i].childNodes[0].nodeValue+'</div>'+
+				'<div class ="row">'+
+				'<div class ="card">'+
+					'<div class ="column">'+ '<div class ="align-text">'+ hm[i].childNodes[0].nodeValue + '</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+himg +'"/>'+'</div>'+'<div class ="align-text">'+ hs[i].childNodes[0].nodeValue +'</div>'+'</div>'+
+					'<div class ="column">'+ dur[i].childNodes[0].nodeValue+ '</div>'+
+					'<div class ="column">'+'<div class ="align-text">'+ v[i].childNodes[0].nodeValue +'</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+ vimg +'"/>'+'</div>'+'<div class ="align-text">'+ vs[i].childNodes[0].nodeValue+ '</div>'+'</div>'+
+				'</div>'+
+				'</div>'+
+				'<div class = "row">'+ nt[i].childNodes[0].nodeValue +'</div>'+
+			'</div>'+
+			'<br><br>';
+			
+			/*txt += x[i].childNodes[0].nodeValue + "<br>"+
 					hm[i].childNodes[0].nodeValue + "<br>"+
 					dur[i].childNodes[0].nodeValue + "<br>"+
 					v[i].childNodes[0].nodeValue + "<br>"+
 					t[i].childNodes[0].nodeValue + "<br>"+
 					hs[i].childNodes[0].nodeValue + "<br>"+
 					vs[i].childNodes[0].nodeValue + "<br>"+
-					nt[i].childNodes[0].nodeValue + "<br><br>";
+					nt[i].childNodes[0].nodeValue + "<br><br>";*/
 		}
 		document.getElementById("demo").innerHTML = txt;
 		
