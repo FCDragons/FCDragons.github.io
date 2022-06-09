@@ -181,13 +181,13 @@
 			let home = teams.find(team => team.name = hm2[j].childNodes[0].nodeValue );	
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
-				if(DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) < DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue);){
+				if(DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) < DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue)){
 					visitor.wins += 1;	
 					visitor.Points += 3;
 					home.lose += 1;
 				}
 				/*Home wins */
-				else if (DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) > DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue);){
+				else if (DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) > DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue)){
 					home.Points += 3;
 					home.wins += 1;
 					visitor.lose += 1;
