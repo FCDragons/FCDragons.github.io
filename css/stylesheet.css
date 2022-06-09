@@ -25,20 +25,10 @@ body{
 	flex-wrap: wrap;
 	margin: auto;
 	width: 100%;
-	margin-bottom: 100px;
 	border: solid blue 5px; /*or testing*/
 	
 }
-.row-center {
-	display: flex; 
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: auto;
-	width: 100%;
-	text-align:center;
-	border: solid pink 5px; /*or testing*/
-	
-}
+
 /* Three columns side by side */
 .column {
 	text-align:center;
