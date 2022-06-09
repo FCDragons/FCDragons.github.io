@@ -2,6 +2,7 @@
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		myFunction(this);
+		standing(this);
 		}
 	};
 	xhttp.open("GET", "books.xml", true);
@@ -105,7 +106,7 @@
 	
 		function standing(xml) {
 			
-		let Teams = [{
+		let teams = [{
 			"name":"FC Dragons White",
 			"img":"images/fcdragons_logo_sm.png",
 			"GP": 0,
@@ -174,27 +175,59 @@
 		];
 		
 		var xmlDoc2 = xml.responseXML;
-		var txt2, hm2, v2, hs2,vs2, j;
+		var txt2, hm2, v2, hs2,vs2, j, k;
 		txt2 = "";
-
+		
+		
 		hm2 = xmlDoc2.getElementsByTagName("home");
 		v2 = xmlDoc2.getElementsByTagName("visitor");
 		hs2 = xmlDoc2.getElementsByTagName("hscore");
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			
-			
-			/*txt += x[i].childNodes[0].nodeValue + "<br>"+
-					hm[i].childNodes[0].nodeValue + "<br>"+
-					dur[i].childNodes[0].nodeValue + "<br>"+
-					v[i].childNodes[0].nodeValue + "<br>"+
-					t[i].childNodes[0].nodeValue + "<br>"+
-					hs[i].childNodes[0].nodeValue + "<br>"+
-					vs[i].childNodes[0].nodeValue + "<br>"+
-					nt[i].childNodes[0].nodeValue + "<br><br>";*/
+			let visitor = teams.find(team => team.name = v2[i].childNodes[0].nodeValue );
+			let home = teams.find(team => team.name = hm2[i].childNodes[0].nodeValue );	
+			if (hs2[j].childNodes[0].nodeValue != "."){
+				/*Home lose */
+				if(hs2[j].childNodes[0].nodeValue < vs2[j].childNodes[0].nodeValue){
+					visitor.wins += 1;	
+					visitor.Points += 3;
+					home.lose += 1;
+				}
+				/*Home wins */
+				else if (hs2[j].childNodes[0].nodeValue > vs2[j].childNodes[0].nodeValue){
+					home.Points += 3;	
+				}
+				/*tie*/
+				else{
+					visitor.Points += 1;
+					home.Points += 1;
+				}
+					visitor.GP += 1;
+					home.GP += 1;
+					home.goals += hs2[j].childNodes[0].nodeValue;
+					home.Against += vs2[j].childNodes[0].nodeValue;
+					visitor.goals += vs2[j].childNodes[0].nodeValue;
+					visitor.Against += hs2[j].childNodes[0].nodeValue;
+			}
+
 		}
-		document.getElementById("demo").innerHTML = txt2;
+		
+		/*sort Teams based off of points */
+			Teams.sort(function(a,b){return b.Points-a.Points});
+			
+			for(k = 0; k < Teams.length; k++){
+				txt2 = '<div class ="columnwst">'+ (k+1) +'</div>'+
+				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+Teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+=Teams[k].name+'</div>'+'</div>'+
+				'<div class ="columnwst">'+Teams[k].GP+'</div>'+
+				'<div class ="columnwst">'+Teams[k].wins+'</div>'+
+				'<div class ="columnwst">'+Teams[k].ties+'</div>'+
+				'<div class ="columnwst">'+Teams[k].lose+'</div>'+
+				'<div class ="columnwst">'+Teams[k].goals+'</div>'+
+				'<div class ="columnwst">'+Teams[k].Against+'</div>'+
+				'<div class ="columnwst">'+Teams[k].Points+'</div>';
+			}
+		document.getElementById("stand").innerHTML = txt2;
 		
 	}
 	
