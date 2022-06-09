@@ -23,6 +23,7 @@ body{
 	display: flex; 
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin: auto;
 	width: 100%;
 	border: solid blue 5px; /*or testing*/
