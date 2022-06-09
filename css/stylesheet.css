@@ -141,6 +141,7 @@ footer{
 	background-color: #FDFDFD;
 	border: solid 5px green;
 	width: 26.5%;
+    align-items: center;
 	margin: 0 auto;
 }
 .written{
