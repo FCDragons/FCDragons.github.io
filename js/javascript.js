@@ -184,8 +184,8 @@
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			let visitor = teams.find(team => team.name = v2[i].childNodes[0].nodeValue );
-			let home = teams.find(team => team.name = hm2[i].childNodes[0].nodeValue );	
+			let visitor = teams.find(team => team.name = v2[j].childNodes[0].nodeValue );
+			let home = teams.find(team => team.name = hm2[j].childNodes[0].nodeValue );	
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
 				if(hs2[j].childNodes[0].nodeValue < vs2[j].childNodes[0].nodeValue){
