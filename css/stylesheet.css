@@ -42,6 +42,15 @@ body{
 	width: 33.3%; 
 	height:auto;
 }
+.columnwst {
+	text-align:center;
+	margin: auto;
+	float: left;
+	/*border: solid green 5px; for testing*/ 
+	/* padding: 5px;*/
+	width: 12%; 
+	height:auto;
+}
 .card {
 	/*border: 5px solid yellow;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);

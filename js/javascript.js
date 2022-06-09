@@ -103,6 +103,118 @@
 		
 	}
 	
+		function standing(xml) {
+			
+		let Teams = [{
+			"name":"FC Dragons White",
+			"img":"images/fcdragons_logo_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},
+			
+			{
+			"name":"FC Dragons Blue",
+			"img":"images/fcdragons_logo_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},
+			
+			{
+			"name":"FC Dragons Yellow",
+			"img":"images/fcdragons_logo_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},
+			
+			{
+			"name":"Diamond A",
+			"img":"images/diamondsA_logo_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},
+			
+			{
+			"name":"Diamond B",
+			"img":"images/diamondsB_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},			
+
+			{
+			"name":"Saint Pius",
+			"img":"images/stpius_logo_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0},	
+
+		];
+		
+		var xmlDoc = xml.responseXML;
+		var txt, x, hm, v, hs,vs, t, nt, i, dur;
+		txt = "";
+		
+		x = xmlDoc.getElementsByTagName("date");
+		hm = xmlDoc.getElementsByTagName("home");
+		v = xmlDoc.getElementsByTagName("visitor");
+		hs = xmlDoc.getElementsByTagName("hscore");
+		vs = xmlDoc.getElementsByTagName("vscore");
+		t = xmlDoc.getElementsByTagName("time");
+		nt = xmlDoc.getElementsByTagName("note");
+		dur = xmlDoc.getElementsByTagName("duration");
+		
+		for (i = 0; i < x.length; i++){
+
+
+		txt += '<div class ="row">'+
+				'<div class ="row">'+x[i].childNodes[0].nodeValue + ' (' + t[i].childNodes[0].nodeValue + ')' + '</div>'+
+				'<div class ="row">'+
+				'<div class ="card">'+
+					'<div class ="column">'+ '<div class ="align-text">'+ hm[i].childNodes[0].nodeValue + '</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+himg +'"/>'+'</div>'+'<div class ="align-text">'+ hs[i].childNodes[0].nodeValue +'</div>'+'</div>'+
+					'<div class ="column">'+ dur[i].childNodes[0].nodeValue+ '</div>'+
+					'<div class ="column">'+'<div class ="align-text">'+ v[i].childNodes[0].nodeValue +'</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+ vimg +'"/>'+'</div>'+'<div class ="align-text">'+ vs[i].childNodes[0].nodeValue+ '</div>'+'</div>'+
+				'</div>'+
+				'</div>'+
+				'<div class = "row">'+ nt[i].childNodes[0].nodeValue +'</div>'+
+			'</div>'+
+			'<br><br>';
+			
+			/*txt += x[i].childNodes[0].nodeValue + "<br>"+
+					hm[i].childNodes[0].nodeValue + "<br>"+
+					dur[i].childNodes[0].nodeValue + "<br>"+
+					v[i].childNodes[0].nodeValue + "<br>"+
+					t[i].childNodes[0].nodeValue + "<br>"+
+					hs[i].childNodes[0].nodeValue + "<br>"+
+					vs[i].childNodes[0].nodeValue + "<br>"+
+					nt[i].childNodes[0].nodeValue + "<br><br>";*/
+		}
+		document.getElementById("demo").innerHTML = txt;
+		
+	}
+	
  // this is API call ----------------------------------------------
 	/*let allNamesElm = document.getElementById("allNames")
 	let loaderElm = document.getElementById("loader")
