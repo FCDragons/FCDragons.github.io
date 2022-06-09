@@ -5,6 +5,61 @@ body{
 	margin: 0;
 }
 
+.borderbox{
+	display: flex;
+	border: 5px solid red;
+	margin: 50px 100px 100px 100px; /* margin top, margin right, Margin bottom, Margin left*/
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.group{
+	margin: auto;
+	border: 5px solid green;
+	margin-top: 50px; /*use to be 100px */
+	width: 100%;
+	padding: 5px;	
+}
+
+.row {
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 100px;
+	border: solid blue 5px; /*or testing*/
+	
+}
+/* Three columns side by side */
+.column {
+	text-align:center;
+	margin: auto;
+	float: left;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	/*border: solid green 5px; for testing*/ 
+	/* padding: 5px;*/
+	width: 33.3%; 
+	height:auto;
+}
+.card {
+  border: 5px solid yellow;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 25px; 
+	width: 60%; 
+	height: auto;
+  margin: auto;
+  position: relative;
+  display: flex; 
+	flex-direction: row;
+	justify-content: center;
+}
+
+.card:hover{
+	box-shadow: 0 4px 10px 0 rgba(1, 0, 0, 0.5);
+}
+
 #display{
 	min-height: 100vh;
 }
@@ -60,6 +115,7 @@ body{
 }
 .header-center {
   text-align: center;
+  margin: 100px 150px 0px 150px; /* top, right, bottom, left */
 }
 footer{
 	text-align: center;
@@ -98,13 +154,6 @@ footer{
   100% { transform: rotate(360deg); }
 }
 
-.name{
-	color: blue;
-	display:inline-block;
-	padding: 10px;
-	text-transform: capitalize;
-	text-align: center;
-}
 .align-text{
 	/*display:inline-block;*/
 	align: center;
@@ -148,8 +197,10 @@ footer{
 	text-align: center;
 	background-color: #FDFDFD;
 	border: solid 5px green;
+	overflow-wrap: break-word;
 	width: 26.5%;
-	display: flex;
+	-ms-flex: 1; /* IE 10 */
+	flex: 1;
     align-items: center;
 	margin: 0 auto;
 }
@@ -172,8 +223,86 @@ footer{
 	display: none;
 	color: red;
 }
+/* Display the columns below each other instead of side by side on small screens */
+@media only screen and (max-width: 1050px) {
+  .column {
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	/*margin-bottom: 100px;*/
+	/*border: solid green 5px;*/
+  }
 
-@media screen and (max-width: 500px) {
+
+    .column2 {
+	margin: auto;
+	width: 100%;
+	
+	/*margin-bottom: 100px;*/
+	/*border: solid green 5px;*/
+  }
+  .card {
+	    display: flex; 
+		flex-direction: row;
+	  	flex-wrap: wrap;
+		width: 100%;
+  }
+  
+  .center{
+	    margin: auto;
+		width: 100%;
+		padding: 10px;
+  }
+
+   .borderbox{ 
+		margin: 0px 0px 0px 0px;
+   }
+   
+   .group {
+	margin: auto;
+	margin-top: 10px; /*use to be 100px */
+	width: 100%;
+	padding: 3px;
+	/*border: solid red 5px;*/
+}
+
+
+.header-center{
+		font-size:14px;
+		margin: 0px 5px 0px 5px; /* top, right, bottom, left */
+}
+
+}
+
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media only screen and (max-width: 445px) {
+
+  .center{
+	    margin: auto;
+		width: 100%;
+		
+  }
+
+   .borderbox{ 
+		margin: 0px 0px 0px 0px;
+   }
+   
+   .group {
+	margin: auto;
+	margin-top: 10px; /*use to be 100px */
+	width: 100%;
+	padding: 3px;
+	
+}
+
+
+.header-center{
+		font-size:8px;
+		margin: 0px 5px 0px 5px; /* top, right, bottom, left */
+}
+
   .header a {
     float: none;
     display: block;
@@ -186,5 +315,5 @@ footer{
   .header-right {
     float: none;
   }
-
 }
+
