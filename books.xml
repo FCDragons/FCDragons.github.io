@@ -3,6 +3,7 @@
 
 <game>
   <date date="5/20/2022">5-20-2022</date>
+  <duration>FT</duration>
   <home>Diamond U-9</home>
   <visitor>FC Dragons White</visitor>
   <time>7:00:00 PM</time>
@@ -12,6 +13,7 @@
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons Blue</home>
   <visitor>Diamond A</visitor>
   <time>8:00:00 AM</time>
@@ -21,6 +23,7 @@
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons Yellow</home>
   <visitor>Saint Pius</visitor>
   <time>9:00:00 AM</time>
@@ -30,6 +33,7 @@
 </game>
 <game>
   <date date="5/21/2022">5-21-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons White</home>
   <visitor>Diamond B</visitor>
   <time>10:00:00 AM</time>
@@ -39,6 +43,7 @@
 </game>
 <game>
   <date date="5/27/2022">5-27-2022</date>
+  <duration>FT</duration>
   <home>Saint Pius</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
@@ -48,6 +53,7 @@
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons White</home>
   <visitor>FC Dragons Yellow</visitor>
   <time>8:00:00 AM</time>
@@ -57,6 +63,7 @@
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
+  <duration>FT</duration>
   <home>Diamond B</home>
   <visitor>Diamond A</visitor>
   <time>9:00:00 AM</time>
@@ -66,6 +73,7 @@
 </game>
 <game>
   <date date="5/28/2022">5-28-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons Blue</home>
   <visitor>Saint Pius</visitor>
   <time>10:00:00 AM</time>
@@ -75,6 +83,7 @@
 </game>
 <game>
   <date date="6/3/2022">6-3-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons White</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
@@ -84,6 +93,7 @@
 </game>
 <game>
   <date date="6/4/2022">6-4-2022</date>
+  <duration>FT</duration>
   <home>Saint Pius</home>
   <visitor>FC Dragons White</visitor>
   <time>8:00:00 AM</time>
@@ -93,6 +103,7 @@
 </game>
 <game>
   <date date="6/4/2022">6-4-2022</date>
+  <duration>FT</duration>
   <home>FC Dragons Blue</home>
   <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
@@ -102,6 +113,7 @@
 </game>
 <game>
   <date date="6/4/2022">6-4-2022</date>
+  <duration>FT</duration>
   <home>Diamond A</home>
   <visitor>FC Dragons Yellow</visitor>
   <time>10:00:00 AM</time>
@@ -111,6 +123,7 @@
 </game>
 <game>
   <date date="6/10/2022">6-10-2022</date>
+  <duration>VS</duration>
   <home>Diamond U-9</home>
   <visitor>FC Dragons White</visitor>
   <time>7:00:00 PM</time>
@@ -120,6 +133,7 @@
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
+  <duration>VS</duration>
   <home>Diamond A</home>
   <visitor>FC Dragons Blue</visitor>
   <time>8:00:00 PM</time>
@@ -129,8 +143,9 @@
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
+  <duration>VS</duration>
   <home>Saint Pius</home>
-  <visitor>FC Dragons Yellow</visitor>
+  <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
   <hscore>.</hscore>
   <vscore>.</vscore>
@@ -138,7 +153,8 @@
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
-  <home>Diamond B</home>
+  <duration>VS</duration>
+  <home>FC Dragons Yellow</home>
   <visitor>FC Dragons White</visitor>
   <time>10:00:00 AM</time>
   <hscore>.</hscore>
@@ -147,6 +163,7 @@
 </game>
 <game>
   <date date="6/17/2022">6-17-2022</date>
+  <duration>VS</duration>
   <home>Diamond U-9</home>
   <visitor>Saint Pius</visitor>
   <time>7:00:00 PM</time>
@@ -156,6 +173,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
+  <duration>VS</duration>
   <home>FC Dragons Yellow</home>
   <visitor>FC Dragons White</visitor>
   <time>8:00:00 AM</time>
@@ -165,6 +183,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
+  <duration>VS</duration>
   <home>Diamond A</home>
   <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
@@ -174,6 +193,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
+  <duration>VS</duration>
   <home>Saint Pius</home>
   <visitor>FC Dragons Blue</visitor>
   <time>10:00:00 AM</time>
@@ -183,6 +203,7 @@
 </game>
 <game>
   <date date="6/24/2022">6-24-2022</date>
+  <duration>VS</duration>
   <home>FC Dragons White</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
@@ -192,6 +213,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
+  <duration>VS</duration>
   <home>FC Dragons White</home>
   <visitor>Saint Pius</visitor>
   <time>8:00:00 AM</time>
@@ -201,6 +223,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
+  <duration>VS</duration>
   <home>Diamond B</home>
   <visitor>FC Dragons Blue</visitor>
   <time>9:00:00 AM</time>
@@ -210,6 +233,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
+  <duration>VS</duration>
   <home>FC Dragons Yellow</home>
   <visitor>Diamonds A</visitor>
   <time>10:00:00 AM</time>
@@ -219,6 +243,7 @@
 </game>
 <game>
   <date date="TBD">TBD</date>
+  <duration>VS</duration>
   <home>2nd Place</home>
   <visitor>3rd Place</visitor>
   <time>TBD</time>
@@ -228,6 +253,7 @@
 </game>
 <game>
   <date date="TBD">TBD</date>
+  <duration>VS</duration>
   <home>1st Place</home>
   <visitor>4th Place</visitor>
   <time>TBD</time>
