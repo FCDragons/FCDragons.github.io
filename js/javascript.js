@@ -78,7 +78,7 @@
 		}
 		
 		txt += '<div class ="row">'+
-				'<div class ="row">'+x[i].childNodes[0].nodeValue+'</div>'+
+				'<div class ="row">'+x[i].childNodes[0].nodeValue + ' (' + t[i].childNodes[0].nodeValue + ')' + '</div>'+
 				'<div class ="row">'+
 				'<div class ="card">'+
 					'<div class ="column">'+ '<div class ="align-text">'+ hm[i].childNodes[0].nodeValue + '</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+himg +'"/>'+'</div>'+'<div class ="align-text">'+ hs[i].childNodes[0].nodeValue +'</div>'+'</div>'+
