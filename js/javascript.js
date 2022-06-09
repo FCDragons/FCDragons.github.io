@@ -1,11 +1,4 @@
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-		myFunction(this);
-		}
-	};
-	xhttp.open("GET", "books.xml", true);
-	xhttp.send();
+
 
 	function myFunction(xml) {
 		var txt, x, hm, v, hs,vs, t, nt, i, dur;
@@ -219,7 +212,7 @@
 			
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
-				/*txt2 += '<div class ="columnwst">'+ position +'</div>'+
+				txt2 += '<div class ="columnwst">'+ position +'</div>'+
 				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</div>'+
 				'<div class ="columnwst">'+teams[k].GP+'</div>'+
 				'<div class ="columnwst">'+teams[k].wins+'</div>'+
@@ -228,7 +221,7 @@
 				'<div class ="columnwst">'+teams[k].goals+'</div>'+
 				'<div class ="columnwst">'+teams[k].Against+'</div>'+
 				'<div class ="columnwst">'+teams[k].Points+'</div>';
-			*/
+			
 			txt2 +=  teams[k].name + "<br>";
 			}
 		document.getElementById("stand").innerHTML = txt2;
