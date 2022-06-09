@@ -108,6 +108,7 @@ footer{
 .flex-container{
 	text-align:center;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
 	border: Solid 5px red;
@@ -129,6 +130,7 @@ footer{
 .container-row{
 	text-align:center;
 	display: flex;
+	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
 	border: Solid 5px yellow;	
