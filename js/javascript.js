@@ -2,7 +2,6 @@
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		myFunction(this);
-		standing(this);
 		}
 	};
 	xhttp.open("GET", "books.xml", true);
