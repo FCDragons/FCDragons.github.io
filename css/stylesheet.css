@@ -163,47 +163,7 @@ footer{
 	/*display:inline-block;*/
 	vertical-align: middle;
 }
-.flex-container{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-	border: Solid 5px red;
-}
 
-.flex-container > div {
-	text-align: center;
-	background-color: #FDFDFD;
-	border: solid 5px blue;
-	border-radius: 25px;
-	width: 80%;
-	line-height: 75px;	
-	  /*center Horizontally*/
-	margin: 0 auto;
-
-}
-.container-row{
-	text-align:center;
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	border-radius: 25px;
-	border: Solid 5px yellow;
-	margin-bottom: 50px;	
-}
-
-.container-row > div{
-	text-align: center;
-	background-color: #FDFDFD;
-	border: solid 5px green;
-	overflow-wrap: break-word;
-	width: 26.5%;
-	-ms-flex: 1; /* IE 10 */
-	flex: 1;
-    align-items: center;
-	margin: 0 auto;
-}
 .written{
 	display:inline-block;
 	text-align: center;
