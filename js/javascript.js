@@ -215,21 +215,21 @@
 		}
 		
 		/*sort Teams based off of points */
-			Teams.sort(function(a,b){return b.Points-a.Points});
+			teams.sort(function(a,b){return b.Points-a.Points});
 			
-			for(k = 0; k < Teams.length; k++){
+			for(k = 0; k < teams.length; k++){
 				let position = k+1;
 				/*txt2 += '<div class ="columnwst">'+ position +'</div>'+
-				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+Teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+Teams[k].name+'</div>'+'</div>'+
-				'<div class ="columnwst">'+Teams[k].GP+'</div>'+
-				'<div class ="columnwst">'+Teams[k].wins+'</div>'+
-				'<div class ="columnwst">'+Teams[k].ties+'</div>'+
-				'<div class ="columnwst">'+Teams[k].lose+'</div>'+
-				'<div class ="columnwst">'+Teams[k].goals+'</div>'+
-				'<div class ="columnwst">'+Teams[k].Against+'</div>'+
-				'<div class ="columnwst">'+Teams[k].Points+'</div>';
+				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</div>'+
+				'<div class ="columnwst">'+teams[k].GP+'</div>'+
+				'<div class ="columnwst">'+teams[k].wins+'</div>'+
+				'<div class ="columnwst">'+teams[k].ties+'</div>'+
+				'<div class ="columnwst">'+teams[k].lose+'</div>'+
+				'<div class ="columnwst">'+teams[k].goals+'</div>'+
+				'<div class ="columnwst">'+teams[k].Against+'</div>'+
+				'<div class ="columnwst">'+teams[k].Points+'</div>';
 			*/
-			txt2 +=  Teams[k].name + "<br>";
+			txt2 +=  teams[k].name + "<br>";
 			}
 		document.getElementById("stand").innerHTML = txt2;
 		
