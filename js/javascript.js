@@ -1,4 +1,4 @@
-/*	var xhttp = new XMLHttpRequest();
+	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		myFunction(this);
@@ -8,8 +8,10 @@
 	xhttp.send();
 
 	function myFunction(xml) {
-		var txt, x, hm, v, hs,vs, t, nt, i;
+		var txt, x, hm, v, hs,vs, t, nt, i, dur;
 		txt = "";
+		let himg;
+		let vimg;
 		var xmlDoc = xml.responseXML;
 		x = xmlDoc.getElementsByTagName("date");
 		hm = xmlDoc.getElementsByTagName("home");
@@ -18,9 +20,39 @@
 		vs = xmlDoc.getElementsByTagName("vscore");
 		t = xmlDoc.getElementsByTagName("time");
 		nt = xmlDoc.getElementsByTagName("note");
+		dur = xmlDoc.getElementsByTagName("duration");
 		for (i = 0; i < x.length; i++){
+		
+		switch (hm[i].childNodes[0].nodeValue){
+			case "Diamond U-9":
+				himg ="images/diamondsu9_sm.png";
+				break;
+			case "FC Dragons White":
+				himg ="images/fcdragons_logo_sm.png";
+				break;
+			case "FC Dragons Blue":
+				himg ="images/fcdragons_logo_sm.png";
+				break;
+			case "Diamond A":
+				himg ="images/diamondsA_logo_sm.png";
+				break;
+			case "FC Dragons Yellow":
+				himg ="images/fcdragons_logo_sm.png";
+				break;
+			case "Saint Pius":
+				himg ="images/stpius_logo_sm.png";
+				break;
+			case "Diamond B":
+				himg ="images/diamondsB_sm.png";
+				break;
+			default: 
+				himg ="images/default_logo_sm.png";
+				break;
+		}
+		
 			txt += x[i].childNodes[0].nodeValue + "<br>"+
 					hm[i].childNodes[0].nodeValue + "<br>"+
+					dur[i].childNodes[0].nodeValue + "<br>"+
 					v[i].childNodes[0].nodeValue + "<br>"+
 					t[i].childNodes[0].nodeValue + "<br>"+
 					hs[i].childNodes[0].nodeValue + "<br>"+
