@@ -118,11 +118,13 @@ footer{
 	background-color: #FDFDFD;
 	border: solid 5px blue;
 	border-radius: 25%;
-	  width: 80%;
-	  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;	
+	width: 80%;
+	line-height: 75px;
+	font-size: 30px;	
+	  /*center Horizontally*/
+	margin: 0 auto;
+	text-align: center;
+
 }
 .container-row{
 	text-align:center;
@@ -138,11 +140,11 @@ footer{
 	border: solid 5px green;
 	/*background-color: #FDFDFD;*/
 	width: 26.5%;
-	margin: 20
+	margin: 0 auto;
 }
 .written{
 	display:inline-block;
-	text-align: center;r
+	text-align: center;
 }
 
 .audio{
