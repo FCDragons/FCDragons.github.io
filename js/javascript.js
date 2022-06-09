@@ -173,34 +173,17 @@
 
 		];
 		
-		var xmlDoc = xml.responseXML;
-		var txt, x, hm, v, hs,vs, t, nt, i, dur;
-		txt = "";
-		
-		x = xmlDoc.getElementsByTagName("date");
-		hm = xmlDoc.getElementsByTagName("home");
-		v = xmlDoc.getElementsByTagName("visitor");
-		hs = xmlDoc.getElementsByTagName("hscore");
-		vs = xmlDoc.getElementsByTagName("vscore");
-		t = xmlDoc.getElementsByTagName("time");
-		nt = xmlDoc.getElementsByTagName("note");
-		dur = xmlDoc.getElementsByTagName("duration");
-		
-		for (i = 0; i < x.length; i++){
+		var xmlDoc2 = xml.responseXML;
+		var txt2, hm2, v2, hs2,vs2, j;
+		txt2 = "";
 
+		hm2 = xmlDoc2.getElementsByTagName("home");
+		v2 = xmlDoc2.getElementsByTagName("visitor");
+		hs2 = xmlDoc2.getElementsByTagName("hscore");
+		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
-		txt += '<div class ="row">'+
-				'<div class ="row">'+x[i].childNodes[0].nodeValue + ' (' + t[i].childNodes[0].nodeValue + ')' + '</div>'+
-				'<div class ="row">'+
-				'<div class ="card">'+
-					'<div class ="column">'+ '<div class ="align-text">'+ hm[i].childNodes[0].nodeValue + '</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+himg +'"/>'+'</div>'+'<div class ="align-text">'+ hs[i].childNodes[0].nodeValue +'</div>'+'</div>'+
-					'<div class ="column">'+ dur[i].childNodes[0].nodeValue+ '</div>'+
-					'<div class ="column">'+'<div class ="align-text">'+ v[i].childNodes[0].nodeValue +'</div>'+'<div class ="align-img">'+'<img width ="100px" height ="auto" src ="'+ vimg +'"/>'+'</div>'+'<div class ="align-text">'+ vs[i].childNodes[0].nodeValue+ '</div>'+'</div>'+
-				'</div>'+
-				'</div>'+
-				'<div class = "row">'+ nt[i].childNodes[0].nodeValue +'</div>'+
-			'</div>'+
-			'<br><br>';
+		for (j = 0; j < hm2.length; j++){
+			
 			
 			/*txt += x[i].childNodes[0].nodeValue + "<br>"+
 					hm[i].childNodes[0].nodeValue + "<br>"+
@@ -211,7 +194,7 @@
 					vs[i].childNodes[0].nodeValue + "<br>"+
 					nt[i].childNodes[0].nodeValue + "<br><br>";*/
 		}
-		document.getElementById("demo").innerHTML = txt;
+		document.getElementById("demo").innerHTML = txt2;
 		
 	}
 	
