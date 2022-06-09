@@ -195,7 +195,9 @@
 				}
 				/*Home wins */
 				else if (hs2[j].childNodes[0].nodeValue > vs2[j].childNodes[0].nodeValue){
-					home.Points += 3;	
+					home.Points += 3;
+					home.wins += 1;
+					visitor.lose += 1;
 				}
 				/*tie*/
 				else{
