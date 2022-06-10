@@ -174,7 +174,7 @@
 		];
 		
 		var xmlDoc2 = xml.responseXML;
-		var txt2, hm2, v2, hs2,vs2, j, k visit, hom;
+		var txt2, hm2, v2, hs2,vs2, j, k, visit, hom;
 		txt2 = "";
 		
 		
