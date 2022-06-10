@@ -98,7 +98,8 @@
 	
 		function standing(xml) {
 			
-		let teams = [{
+		let teams = [
+			{
 			"name":"FC Dragons White",
 			"img":"images/fcdragons_logo_sm.png",
 			"GP": 0,
@@ -107,7 +108,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},
+			"Points":0
+			},
 			
 			{
 			"name":"FC Dragons Blue",
@@ -118,7 +120,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},
+			"Points":0
+			},
 			
 			{
 			"name":"FC Dragons Yellow",
@@ -129,7 +132,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},
+			"Points":0
+			},
 			
 			{
 			"name":"Diamond A",
@@ -140,7 +144,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},
+			"Points":0
+			},
 			
 			{
 			"name":"Diamond B",
@@ -151,7 +156,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},			
+			"Points":0
+			},			
 
 			{
 			"name":"Saint Pius",
@@ -162,7 +168,8 @@
 			"Lose":0,
 			"goals":0,
 			"Against":0,
-			"Points":0},	
+			"Points":0
+			},	
 
 		];
 		
