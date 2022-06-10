@@ -198,8 +198,7 @@
 							'<th>Goals Made</th>'+
 							'<th>Goals Against</th>'+
 							'<th>Points</th>'+
-						'</tr>'+
-						'<tr>';
+						'</tr>';
 		
 		
 		hm2 = xmlDoc2.getElementsByTagName("home");
@@ -293,7 +292,8 @@
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
 				
-				txt2 += 	'<td>'+ position +'</td>'+
+				txt2 += '<tr>'+
+							'<td>'+ position +'</td>'+
 							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</td>'+
 							'<td>'+teams[k].GP+'</td>'+
 							'<td>'+teams[k].wins+'</td>'+
@@ -302,8 +302,7 @@
 							'<td>'+teams[k].goals+'</td>'+
 							'<td>'+teams[k].Against+'</td>'+
 							'<td>'+teams[k].Points+'</td>'+
-						'</tr>'+
-					'</table>';
+						'</tr>';
 							
 				/*txt2 += '<div class ="columnwst">'+ position +'</div>'+
 				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</div>'+
@@ -317,6 +316,8 @@
 			
 			
 			}
+			
+			txt2 += '</table>';
 			console.log(txt2);
 		document.getElementById("stand").innerHTML = txt2;
 		
