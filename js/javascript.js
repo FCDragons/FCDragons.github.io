@@ -98,7 +98,7 @@
 	
 		function standing(xml) {
 			
-		const teams = [
+		let teams = [
 			{
 			"name":"FC Dragons White",
 			"img":"images/fcdragons_logo_sm.png",
@@ -169,7 +169,7 @@
 			"goals":0,
 			"Against":0,
 			"Points":0
-			},	
+			}	
 
 		];
 		
