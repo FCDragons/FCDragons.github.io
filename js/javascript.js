@@ -262,18 +262,20 @@
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
 					visit.wins += 1;	
 					visit.Points += 3;
-					hom.lose += 1;
+					hom.Lose += 1;
 				}
 				/*Home wins */
 				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
 					hom.wins += 1;
 					hom.Points += 3;
-					visit.lose += 1;
+					visit.Lose += 1;
 				}
 				/*tie*/
 				else{
 					visit.Points += 1;
 					hom.Points += 1;
+					visit.ties += 1;
+					hom.ties +=1;
 				}
 					visit.GP += 1;
 					hom.GP += 1;
