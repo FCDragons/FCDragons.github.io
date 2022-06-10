@@ -199,7 +199,7 @@
 							'<th>Goals Against</th>'+
 							'<th>Points</th>'+
 						'</tr>'+
-						'<tr>'+;
+						'<tr>';
 		
 		
 		hm2 = xmlDoc2.getElementsByTagName("home");
