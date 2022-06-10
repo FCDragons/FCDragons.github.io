@@ -294,7 +294,7 @@
 				let position = k+1;
 				
 				txt2 += 	'<td>'+ position +'</td>'+
-							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
+							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</td>'+
 							'<td>'+teams[k].GP+'</td>'+
 							'<td>'+teams[k].wins+'</td>'+
 							'<td>'+teams[k].ties+'</td>'+
