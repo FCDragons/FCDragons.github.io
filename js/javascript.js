@@ -24,13 +24,13 @@
 				himg ="images/fcdragons_logo_sm.png";
 				break;
 			case "FC Dragons Blue":
-				himg ="images/fcdragons_logo_sm.png";
+				himg ="images/fcdragonsb_logo_sm.png";
 				break;
 			case "Diamond A":
 				himg ="images/diamondsA_logo_sm.png";
 				break;
 			case "FC Dragons Yellow":
-				himg ="images/fcdragons_logo_sm.png";
+				himg ="images/fcdragonsy_logo_sm.png";
 				break;
 			case "Saint Pius":
 				himg ="images/stpius_logo_sm.png";
@@ -51,13 +51,13 @@
 				vimg ="images/fcdragons_logo_sm.png";
 				break;
 			case "FC Dragons Blue":
-				vimg ="images/fcdragons_logo_sm.png";
+				vimg ="images/fcdragonsb_logo_sm.png";
 				break;
 			case "Diamond A":
 				vimg ="images/diamondsA_logo_sm.png";
 				break;
 			case "FC Dragons Yellow":
-				vimg ="images/fcdragons_logo_sm.png";
+				vimg ="images/fcdragonsy_logo_sm.png";
 				break;
 			case "Saint Pius":
 				vimg ="images/stpius_logo_sm.png";
@@ -111,7 +111,7 @@
 			
 			{
 			"name":"FC Dragons Blue",
-			"img":"images/fcdragons_logo_sm.png",
+			"img":"images/fcdragonsb_logo_sm.png",
 			"GP": 0,
 			"wins":0,
 			"ties":0,
@@ -122,7 +122,7 @@
 			
 			{
 			"name":"FC Dragons Yellow",
-			"img":"images/fcdragons_logo_sm.png",
+			"img":"images/fcdragonsy_logo_sm.png",
 			"GP": 0,
 			"wins":0,
 			"ties":0,
@@ -223,7 +223,7 @@
 				'<div class ="columnwst">'+teams[k].Against+'</div>'+
 				'<div class ="columnwst">'+teams[k].Points+'</div>';
 			
-			txt2 +=  teams[k].name + "<br>";
+			
 			}
 		document.getElementById("stand").innerHTML = txt2;
 		
