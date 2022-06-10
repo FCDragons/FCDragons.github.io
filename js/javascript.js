@@ -280,7 +280,20 @@
 			
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
-				txt2 += '<div class ="columnwst">'+ position +'</div>'+
+				
+				txt2 += '<tr>'+
+							'<td>'+ position +'</td>'
+							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
+							'<td>'++teams[k].GP+'</td>'+
+							'<td>'+teams[k].wins+'</td>'+
+							'<td>'+teams[k].ties+'</td>'+
+							'<td>'+teams[k].lose+'</td>'+
+							'<td>'teams[k].goals+'</td>'+
+							'<td>'+teams[k].Against+'</td>'+
+							'<td>'+teams[k].Points+'</td>'+
+						'</tr>';
+							
+				/*txt2 += '<div class ="columnwst">'+ position +'</div>'+
 				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</div>'+
 				'<div class ="columnwst">'+teams[k].GP+'</div>'+
 				'<div class ="columnwst">'+teams[k].wins+'</div>'+
@@ -288,7 +301,7 @@
 				'<div class ="columnwst">'+teams[k].lose+'</div>'+
 				'<div class ="columnwst">'+teams[k].goals+'</div>'+
 				'<div class ="columnwst">'+teams[k].Against+'</div>'+
-				'<div class ="columnwst">'+teams[k].Points+'</div>';
+				'<div class ="columnwst">'+teams[k].Points+'</div>';*/
 			
 			
 			}
