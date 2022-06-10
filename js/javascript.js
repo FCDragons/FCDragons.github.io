@@ -284,11 +284,11 @@
 				txt2 += '<tr>'+
 							'<td>'+ position +'</td>'
 							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
-							'<td>'++teams[k].GP+'</td>'+
+							'<td>'+teams[k].GP+'</td>'+
 							'<td>'+teams[k].wins+'</td>'+
 							'<td>'+teams[k].ties+'</td>'+
 							'<td>'+teams[k].lose+'</td>'+
-							'<td>'teams[k].goals+'</td>'+
+							'<td>'+teams[k].goals+'</td>'+
 							'<td>'+teams[k].Against+'</td>'+
 							'<td>'+teams[k].Points+'</td>'+
 						'</tr>';
