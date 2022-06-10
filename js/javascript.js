@@ -174,7 +174,7 @@
 		];
 		
 		var xmlDoc2 = xml.responseXML;
-		var txt2, hm2, v2, hs2,vs2, j, k, visit, hom;
+		var txt2, hm2, v2, hs2,vs2, j, k;
 		txt2 = "";
 		
 		
@@ -187,7 +187,7 @@
 			/*
 			find who is home and who is visit
 			*/
-			switch(hm2[j].childNodes[0].nodeValue){
+			/*switch(hm2[j].childNodes[0].nodeValue){
 				case "FC Dragons White":
 					hom = 0;
 					break;
@@ -228,36 +228,37 @@
 					visit = 4;
 					break;	
 			}	
+			*/
 			
-			
-			/*const visit = teams.find(({name}) => name === v2[j].childNodes[0].nodeValue );
-			const hom = teams.find(({name}) => name === hm2[j].childNodes[0].nodeValue );	*/
-			
+			let visit = teams.find(team => team.name === v2[j].childNodes[0].nodeValue );
+			let hom = teams.find(team => team.name === hm2[j].childNodes[0].nodeValue );	
+			console.log(visit);
+			console.log(hom);
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
-					teams[visit].wins += 1;	
-					teams[visit].Points += 3;
-					teams[hom].lose += 1;
+					visit.wins += 1;	
+					visit.Points += 3;
+					hom.lose += 1;
 				}
 				/*Home wins */
 				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
-					teams[hom].wins += 1;
-					teams[hom].Points += 3;
-					teams[visit].lose += 1;
+					hom.wins += 1;
+					hom.Points += 3;
+					visit.lose += 1;
 				}
 				/*tie*/
 				else{
-					teams[visit].Points += 1;
-					teams[hom].Points += 1;
+					visit.Points += 1;
+					hom.Points += 1;
 				}
-					teams[visit].GP += 1;
-					teams[hom].GP += 1;
+					visit.GP += 1;
+					hom.GP += 1;
 					
-					teams[hom].goals += parseInt(hs2[j].childNodes[0].nodeValue);
-					teams[hom].Against += parseInt(vs2[j].childNodes[0].nodeValue);
-					teams[visit].goals += parseInt(vs2[j].childNodes[0].nodeValue);
-					teams[visit].Against +=parseInt(hs2[j].childNodes[0].nodeValue);
+					hom.goals += parseInt(hs2[j].childNodes[0].nodeValue);
+					hom.Against += parseInt(vs2[j].childNodes[0].nodeValue);
+					visit.goals += parseInt(vs2[j].childNodes[0].nodeValue);
+					visit.Against +=parseInt(hs2[j].childNodes[0].nodeValue);
 			}
 
 		}
