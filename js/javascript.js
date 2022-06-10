@@ -158,7 +158,19 @@
 			"Against":0,
 			"Points":0
 			},			
-
+			
+			{
+			"name":"Diamond U-9",
+			"img":"images/diamondsu9_sm.png",
+			"GP": 0,
+			"wins":0,
+			"ties":0,
+			"Lose":0,
+			"goals":0,
+			"Against":0,
+			"Points":0
+			},
+			
 			{
 			"name":"Saint Pius",
 			"img":"images/stpius_logo_sm.png",
