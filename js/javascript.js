@@ -184,33 +184,33 @@
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			let visitor = teams.find(team => team.name === v2[j].childNodes[0].nodeValue );
-			let home = teams.find(team => team.name === hm2[j].childNodes[0].nodeValue );	
+			let visit = teams.find(team => team.name === v2[j].childNodes[0].nodeValue );
+			let hom = teams.find(team => team.name === hm2[j].childNodes[0].nodeValue );	
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
-					visitor.wins += 1;	
-					visitor.Points += 3;
-					home.lose += 1;
+					visit.wins += 1;	
+					visit.Points += 3;
+					hom.lose += 1;
 				}
 				/*Home wins */
 				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
-					home.Points += 3;
-					home.wins += 1;
-					visitor.lose += 1;
+					hom.Points += 3;
+					hom.wins += 1;
+					visit.lose += 1;
 				}
 				/*tie*/
 				else{
-					visitor.Points += 1;
-					home.Points += 1;
+					visit.Points += 1;
+					hom.Points += 1;
 				}
-					visitor.GP += 1;
-					home.GP += 1;
+					visit.GP += 1;
+					hom.GP += 1;
 					
-					home.goals += parseInt(hs2[j].childNodes[0].nodeValue);
-					home.Against += parseInt(vs2[j].childNodes[0].nodeValue);
-					visitor.goals += parseInt(vs2[j].childNodes[0].nodeValue);
-					visitor.Against +=parseInt(hs2[j].childNodes[0].nodeValue);
+					hom.goals += parseInt(hs2[j].childNodes[0].nodeValue);
+					hom.Against += parseInt(vs2[j].childNodes[0].nodeValue);
+					visit.goals += parseInt(vs2[j].childNodes[0].nodeValue);
+					visit.Against +=parseInt(hs2[j].childNodes[0].nodeValue);
 			}
 
 		}
