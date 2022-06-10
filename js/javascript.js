@@ -293,7 +293,7 @@
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
 				
-				txt2 += 	'<td>'+ position +'</td>'
+				txt2 += 	'<td>'+ position +'</td>'+
 							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
 							'<td>'+teams[k].GP+'</td>'+
 							'<td>'+teams[k].wins+'</td>'+
@@ -317,6 +317,7 @@
 			
 			
 			}
+			console.log(txt2);
 		document.getElementById("stand").innerHTML = txt2;
 		
 	}
