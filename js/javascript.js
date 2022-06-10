@@ -98,7 +98,7 @@
 	
 		function standing(xml) {
 			
-		let teams = [
+		const teams = [
 			{
 			"name":"FC Dragons White",
 			"img":"images/fcdragons_logo_sm.png",
@@ -184,8 +184,8 @@
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			let visit = teams.find(visit => visit.name === v2[j].childNodes[0].nodeValue );
-			let hom = teams.find(hom => hom.name === hm2[j].childNodes[0].nodeValue );	
+			const visit = teams.find(({name}) => name === v2[j].childNodes[0].nodeValue );
+			const hom = teams.find(({name}) => name === hm2[j].childNodes[0].nodeValue );	
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
