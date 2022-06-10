@@ -281,7 +281,20 @@
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
 				
-				txt2 += '<tr>'+
+				txt2 += 
+					'<table>'+
+						'<tr>'+
+							'<th>place</th>'+
+							'<th>Team Name</th>'+
+							'<th>Games played</th>'+
+							'<th>Win</th>'+
+							'<th>Ties</th>'+
+							'<th>Lose</th>'+
+							'<th>Goals Made</th>'+
+							'<th>Goals Against</th>'+
+							'<th>Points</th>'+
+						'</tr>'+
+						'<tr>'+
 							'<td>'+ position +'</td>'
 							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
 							'<td>'+teams[k].GP+'</td>'+
@@ -291,7 +304,8 @@
 							'<td>'+teams[k].goals+'</td>'+
 							'<td>'+teams[k].Against+'</td>'+
 							'<td>'+teams[k].Points+'</td>'+
-						'</tr>';
+						'</tr>'+
+					'</table>';
 							
 				/*txt2 += '<div class ="columnwst">'+ position +'</div>'+
 				'<div class ="columnwst">'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</div>'+'<div class = "align-text">'+teams[k].name+'</div>'+'</div>'+
