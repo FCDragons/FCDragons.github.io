@@ -184,33 +184,80 @@
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			const visit = teams.find(({name}) => name === v2[j].childNodes[0].nodeValue );
-			const hom = teams.find(({name}) => name === hm2[j].childNodes[0].nodeValue );	
+			/*
+			find who is home and who is visit
+			*/
+			switch(hm2[j].childNodes[0].nodeValue){
+				case "FC Dragons White":
+					hom = 0;
+					break;
+				case "FC Dragons Blue":
+					hom = 1;
+					break;
+				case "Diamond A":
+					hom = 3;
+					break;
+				case "FC Dragons Yellow":
+					hom = 2;
+					break;
+				case "Saint Pius":
+					hom = 5;
+					break;
+				case "Diamond B":
+					hom = 4;
+					break;	
+			}
+			
+			switch(v2[j].childNodes[0].nodeValue){
+				case "FC Dragons White":
+					visit = 0;
+					break;
+				case "FC Dragons Blue":
+					visit = 1;
+					break;
+				case "Diamond A":
+					visit = 3;
+					break;
+				case "FC Dragons Yellow":
+					visit = 2;
+					break;
+				case "Saint Pius":
+					visit = 5;
+					break;
+				case "Diamond B":
+					visit = 4;
+					break;	
+			}	
+			
+			
+			/*const visit = teams.find(({name}) => name === v2[j].childNodes[0].nodeValue );
+			const hom = teams.find(({name}) => name === hm2[j].childNodes[0].nodeValue );	*/
+			
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
-					visit.wins += 1;	
-					visit.Points += 3;
-					hom.lose += 1;
+					teams[visit].wins += 1;	
+					teams[visit].Points += 3;
+					teams[hom].lose += 1;
 				}
 				/*Home wins */
 				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
-					hom.wins += 1;
-					hom.Points += 3;
-					visit.lose += 1;
+					teams[hom].wins += 1;
+					teams[hom].Points += 3;
+					teams[visit].lose += 1;
 				}
 				/*tie*/
 				else{
-					visit.Points += 1;
-					hom.Points += 1;
+					teams[visit].Points += 1;
+					teams[hom].Points += 1;
 				}
-					visit.GP += 1;
-					hom.GP += 1;
+					teams[visit].GP += 1;
+					teams[hom].GP += 1;
 					
-					hom.goals += parseInt(hs2[j].childNodes[0].nodeValue);
-					hom.Against += parseInt(vs2[j].childNodes[0].nodeValue);
-					visit.goals += parseInt(vs2[j].childNodes[0].nodeValue);
-					visit.Against +=parseInt(hs2[j].childNodes[0].nodeValue);
+					teams[hom].goals += parseInt(hs2[j].childNodes[0].nodeValue);
+					teams[hom].Against += parseInt(vs2[j].childNodes[0].nodeValue);
+					teams[visit].goals += parseInt(vs2[j].childNodes[0].nodeValue);
+					teams[visit].Against +=parseInt(hs2[j].childNodes[0].nodeValue);
 			}
 
 		}
