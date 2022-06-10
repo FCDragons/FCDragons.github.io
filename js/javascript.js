@@ -105,7 +105,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -117,7 +117,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -129,7 +129,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -141,7 +141,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -153,7 +153,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -165,7 +165,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -177,7 +177,7 @@
 			"GP": 0,
 			"wins":0,
 			"ties":0,
-			"Lose":0,
+			"lose":0,
 			"goals":0,
 			"Against":0,
 			"Points":0
@@ -207,51 +207,7 @@
 		vs2 = xmlDoc2.getElementsByTagName("vscore");
 
 		for (j = 0; j < hm2.length; j++){
-			/*
-			find who is home and who is visit
-			*/
-			/*switch(hm2[j].childNodes[0].nodeValue){
-				case "FC Dragons White":
-					hom = 0;
-					break;
-				case "FC Dragons Blue":
-					hom = 1;
-					break;
-				case "Diamond A":
-					hom = 3;
-					break;
-				case "FC Dragons Yellow":
-					hom = 2;
-					break;
-				case "Saint Pius":
-					hom = 5;
-					break;
-				case "Diamond B":
-					hom = 4;
-					break;	
-			}
-			
-			switch(v2[j].childNodes[0].nodeValue){
-				case "FC Dragons White":
-					visit = 0;
-					break;
-				case "FC Dragons Blue":
-					visit = 1;
-					break;
-				case "Diamond A":
-					visit = 3;
-					break;
-				case "FC Dragons Yellow":
-					visit = 2;
-					break;
-				case "Saint Pius":
-					visit = 5;
-					break;
-				case "Diamond B":
-					visit = 4;
-					break;	
-			}	
-			*/
+
 			
 			let visit = teams.find(team => team.name === v2[j].childNodes[0].nodeValue );
 			let hom = teams.find(team => team.name === hm2[j].childNodes[0].nodeValue );	
@@ -262,13 +218,13 @@
 				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
 					visit.wins += 1;	
 					visit.Points += 3;
-					hom.Lose += 1;
+					hom.lose += 1;
 				}
 				/*Home wins */
 				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
 					hom.wins += 1;
 					hom.Points += 3;
-					visit.Lose += 1;
+					visit.lose += 1;
 				}
 				/*tie*/
 				else{
