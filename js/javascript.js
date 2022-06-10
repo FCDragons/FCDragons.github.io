@@ -181,13 +181,13 @@
 			let home = teams.find(team => team.name = hm2[j].childNodes[0].nodeValue );	
 			if (hs2[j].childNodes[0].nodeValue != "."){
 				/*Home lose */
-				if(DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) < DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue)){
+				if(parseInt(hs2[j].childNodes[0].nodeValue) < parseInt(vs2[j].childNodes[0].nodeValue)){
 					visitor.wins += 1;	
 					visitor.Points += 3;
 					home.lose += 1;
 				}
 				/*Home wins */
-				else if (DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue) > DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue)){
+				else if (parseInt(hs2[j].childNodes[0].nodeValue) > parseInt(vs2[j].childNodes[0].nodeValue)){
 					home.Points += 3;
 					home.wins += 1;
 					visitor.lose += 1;
@@ -200,10 +200,10 @@
 					visitor.GP += 1;
 					home.GP += 1;
 					
-					home.goals += DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue);
-					home.Against += DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue);
-					visitor.goals += DatatypeConverter.parseInt(vs2[j].childNodes[0].nodeValue);
-					visitor.Against +=DatatypeConverter.parseInt(hs2[j].childNodes[0].nodeValue);
+					home.goals += parseInt(hs2[j].childNodes[0].nodeValue);
+					home.Against += parseInt(vs2[j].childNodes[0].nodeValue);
+					visitor.goals += parseInt(vs2[j].childNodes[0].nodeValue);
+					visitor.Against +=parseInt(hs2[j].childNodes[0].nodeValue);
 			}
 
 		}

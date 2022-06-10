@@ -54,7 +54,7 @@ body{
 .card {
 	/*border: 5px solid yellow;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-	background-color: #FDFDFD;
+	background-color: #d9d7d7;
 	border-radius: 25px; 
 	width: 60%; 
 	height: auto;
@@ -87,9 +87,9 @@ body{
 	overflow: hidden;
 	color: white;
 	padding: 20px 10px;
- 	background: #FDFDFD;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #FDFDFD, #FDFDFD);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #FDFDFD, #FDFDFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 	background: #d9d7d7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #c7c3c3, #c2b4b4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #c7c3c3, #d9d7d7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 .header a {
   float: left;
@@ -100,6 +100,7 @@ body{
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
+  
 }
 .header a.logo {
   font-size: 25px;
@@ -115,7 +116,8 @@ body{
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #38ef7d;
+  border-bottom: 5px solid red;
   color: white;
 }
 
