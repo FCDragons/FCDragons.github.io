@@ -187,7 +187,19 @@
 		
 		var xmlDoc2 = xml.responseXML;
 		var txt2, hm2, v2, hs2,vs2, j, k;
-		txt2 = "";
+		txt2 = '<table>'+
+						'<tr>'+
+							'<th>place</th>'+
+							'<th>Team Name</th>'+
+							'<th>Games played</th>'+
+							'<th>Win</th>'+
+							'<th>Ties</th>'+
+							'<th>Lose</th>'+
+							'<th>Goals Made</th>'+
+							'<th>Goals Against</th>'+
+							'<th>Points</th>'+
+						'</tr>'+
+						'<tr>'+;
 		
 		
 		hm2 = xmlDoc2.getElementsByTagName("home");
@@ -281,21 +293,7 @@
 			for(k = 0; k < teams.length; k++){
 				let position = k+1;
 				
-				txt2 += 
-					'<table>'+
-						'<tr>'+
-							'<th>place</th>'+
-							'<th>Team Name</th>'+
-							'<th>Games played</th>'+
-							'<th>Win</th>'+
-							'<th>Ties</th>'+
-							'<th>Lose</th>'+
-							'<th>Goals Made</th>'+
-							'<th>Goals Against</th>'+
-							'<th>Points</th>'+
-						'</tr>'+
-						'<tr>'+
-							'<td>'+ position +'</td>'
+				txt2 += 	'<td>'+ position +'</td>'
 							'<td>'+'<div class = "align-img">'+'<img src ="'+teams[k].img+'" width = "30px" height = "auto"/>'+'</td>'+
 							'<td>'+teams[k].GP+'</td>'+
 							'<td>'+teams[k].wins+'</td>'+
