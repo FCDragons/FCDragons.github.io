@@ -127,28 +127,28 @@
   <home>Diamond U-9</home>
   <visitor>FC Dragons White</visitor>
   <time>7:00:00 PM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
+  <hscore>7</hscore>
+  <vscore>1</vscore>
   <note>.</note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Diamond A</home>
   <visitor>FC Dragons Blue</visitor>
   <time>8:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
+  <hscore>2</hscore>
+  <vscore>1</vscore>
   <note>.</note>
 </game>
 <game>
   <date date="6/11/2022">6-11-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Saint Pius</home>
   <visitor>Diamond B</visitor>
   <time>9:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
+  <hscore>0</hscore>
+  <vscore>6</vscore>
   <note>.</note>
 </game>
 <game>
@@ -157,8 +157,8 @@
   <home>FC Dragons Yellow</home>
   <visitor>FC Dragons White</visitor>
   <time>10:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
+  <hscore>2</hscore>
+  <vscore>0</vscore>
   <note>.</note>
 </game>
 <game>
