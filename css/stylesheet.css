@@ -5,6 +5,8 @@ body{
 	margin: 0;
 }
 .SoccerLogo{
+	  /* Center horizontally*/
+  margin: 0 auto;
 	width: 20%;
 	height: auto;
 }
