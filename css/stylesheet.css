@@ -5,7 +5,7 @@ body{
 	margin: 0;
 }
 .SoccerLogo{
-	width: 5%;
+	width: 20%;
 	height: auto;
 }
 .header{
@@ -70,6 +70,8 @@ body{
 }
 
 .topnav a:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
   background-color: #ddd;
   color: black;
 }
