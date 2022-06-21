@@ -57,11 +57,12 @@ body{
 }
 
 .centered{
+	text-align:center;
     display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	border: solid 5px blue;
+
 }
 
 
