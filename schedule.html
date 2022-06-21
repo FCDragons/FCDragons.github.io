@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Team Standing </title>
+	<title> Soccer Schedule </title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
@@ -22,36 +22,45 @@
   <a href="index.html"><img class = "SoccerLogo" src ="images/fcDragonslogo_trans.svg" alt = "FC Dragon  Logo"></a>
   <div class="header-right">
     <a href = "index.html">Home</a>
-	<a href="schedule.html">Schedule</a>
-    <a href="standing.html" class="active">Standing</a>
+	<a href="schedule.html" class="active">Schedule</a>
+    <a href="standing.html">Standing</a>
     <a href="teams.html">Meet the Teams</a>
   </div>
 	</div>
-	
-	<div class = "header-center"><h1>Harry Stone Leauge May 2022 - July 2022</h1>
-		</div>
+	<div class = "header-center" ><h1>Schedule</h1>
+		<h3>see score standing</h3></div>
 	<div class = "borderbox">
-		<div id = "" class = "group">
-
-			<div id = "stand" style="overflow-x:auto;">
-
-			</div>
-
+		<div id = "demo" class = "group">
 		</div>
 	</div>
-	<script>
-		var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-		standing(this);
-		}
-	};
-	xhttp.open("GET", "books.xml", true);
-	xhttp.send();
-	</script>
-</body>
+
+<!--API -->
+	<!--<div id="display">
+		<div id="loader"> 
+			<h4> Loading</h4> 
+		</div>
+		<div id="allNames">
+		</div>
+		<div id="errorMessage"> 
+			<h2> Failed to get data. Please refresh </h2>
+		</div>
+	</div>-->
+	
 	<footer>
 		<h4> Built by <a href="" style="text-decoration: none"> Violeta Torres </a>
 		<!--<h4> Powered by <a href="https://www.apispreadsheets.com" style="text-decoration: none"> API Spreadsheets </a> </h4>-->
 	</footer>
+	<script>
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+			myFunction(this);
+			}
+		};
+		xhttp.open("GET", "books.xml", true);
+		xhttp.send();
+		
+	</script>
+	
+</body>
 </html>
