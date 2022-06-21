@@ -81,7 +81,7 @@ body{
   border-bottom: 5px solid red;
   color: white;
 }
-.topnav-centered{
+/*.topnav-centered{
   float: none;
   position: relative;
     display: block;
@@ -89,16 +89,16 @@ body{
   margin-right: auto;
   width: 50%;
 
-}
+}*/
 
-/*.topnav-centered a {
+.topnav-centered a {
 
   float: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}*/
+}
 
 .topnav-right {
   float: right;
