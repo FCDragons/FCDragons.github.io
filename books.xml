@@ -163,7 +163,7 @@
 </game>
 <game>
   <date date="6/17/2022">6-17-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Diamond U-9</home>
   <visitor>Saint Pius</visitor>
   <time>7:00:00 PM</time>
@@ -173,7 +173,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Diamond B</home>
   <visitor>FC Dragons White</visitor>
   <time>8:00:00 AM</time>
@@ -183,7 +183,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Diamond A</home>
   <visitor>Saint Pius</visitor>
   <time>9:00:00 AM</time>
@@ -193,7 +193,7 @@
 </game>
 <game>
   <date date="6/18/2022">6-18-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>FC Dragons Yellow</home>
   <visitor>FC Dragons Blue</visitor>
   <time>10:00:00 AM</time>
@@ -203,7 +203,7 @@
 </game>
 <game>
   <date date="6/24/2022">6-24-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>FC Dragons White</home>
   <visitor>Diamond U-9</visitor>
   <time>7:00:00 PM</time>
@@ -213,7 +213,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>FC Dragons White</home>
   <visitor>Saint Pius</visitor>
   <time>8:00:00 AM</time>
@@ -223,7 +223,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>Diamond B</home>
   <visitor>FC Dragons Yellow</visitor>
   <time>9:00:00 AM</time>
@@ -233,7 +233,7 @@
 </game>
 <game>
   <date date="6/25/2022">6-25-2022</date>
-  <duration>VS</duration>
+  <duration>FT</duration>
   <home>FC Dragons Blue</home>
   <visitor>Diamond A</visitor>
   <time>10:00:00 AM</time>
@@ -244,21 +244,21 @@
 <game>
   <date date="TBD">TBD</date>
   <duration>VS</duration>
-  <home>2nd Place</home>
-  <visitor>3rd Place</visitor>
+  <home>Diamond B</home>
+  <visitor>FC Dragons Yellow</visitor>
   <time>TBD</time>
   <hscore>.</hscore>
   <vscore>.</vscore>
-  <note>.</note>
+  <note>Diamond B is Home</note>
 </game>
 <game>
   <date date="TBD">TBD</date>
   <duration>VS</duration>
-  <home>1st Place</home>
-  <visitor>4th Place</visitor>
+  <home>FC Dragons Blue</home>
+  <visitor>Diamonds A</visitor>
   <time>TBD</time>
   <hscore>.</hscore>
   <vscore>.</vscore>
-  <note>.</note>
+  <note>FC Dragons Blue is Home</note>
 </game>
 </schedule>
