@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-
+<game>
+  <date date="7/09/2022">7-09-2022</date>
+  <duration>VS</duration>
+  <home>FC Dragons Blue</home>
+  <visitor>Diamond A</visitor>
+  <time>8:00:00 AM</time>
+  <hscore>.</hscore>
+  <vscore>.</vscore>
+  <note>FC Dragons Blue is Home</note>
+</game>
+<game>
+  <date date="7/09/2022">7-09-2022</date>
+  <duration>VS</duration>
+  <home>Diamond B</home>
+  <visitor>FC Dragons Yellow</visitor>
+  <time>9:00:00 AM</time>
+  <hscore>.</hscore>
+  <vscore>.</vscore>
+  <note>Diamond B is Home</note>
+</game>
+<game>
+  <date date="7/16/2022">7-16-2022</date>
+  <duration>VS</duration>
+  <home>Final</home>
+  <visitor>Final</visitor>
+  <time>8:00:00 AM</time>
+  <hscore>.</hscore>
+  <vscore>.</vscore>
+  <note>.</note>
+</game>
 <game>
   <date date="5/20/2022">5-20-2022</date>
   <duration>FT</duration>
@@ -241,34 +270,5 @@
   <vscore>4</vscore>
   <note>.</note>
 </game>
-<game>
-  <date date="7/09/2022">7-09-2022</date>
-  <duration>VS</duration>
-  <home>FC Dragons Blue</home>
-  <visitor>Diamond A</visitor>
-  <time>8:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
-  <note>FC Dragons Blue is Home</note>
-</game>
-<game>
-  <date date="7/09/2022">7-09-2022</date>
-  <duration>VS</duration>
-  <home>Diamond B</home>
-  <visitor>FC Dragons Yellow</visitor>
-  <time>9:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
-  <note>Diamond B is Home</note>
-</game>
-<game>
-  <date date="7/16/2022">7-16-2022</date>
-  <duration>VS</duration>
-  <home>Final</home>
-  <visitor>Final</visitor>
-  <time>8:00:00 AM</time>
-  <hscore>.</hscore>
-  <vscore>.</vscore>
-  <note>.</note>
-</game>
+
 </schedule>
